@@ -289,27 +289,30 @@ function App() {
 
         {/* Questions */}
         <div className="content-area">
-          {questions.map((q, index) => (
-            <div key={index} style={{ marginBottom: "20px" }}>
-              <strong>Q {index + 1}.</strong> {q.question}
-              <div>
-                {q.options.map((option, optIndex) => (
-                  <label key={optIndex}>
-                    <input
-                      type="radio"
-                      name={`q${index}`}
-                      onClick={handleAnswerMark}
-                    />{" "}
-                    {option}
-                    <br />
-                  </label>
-                ))}
+        {questions.map((q, index) => (
+  <div key={index} className="question-block">
+    {/* <strong>Q {index + 1}.</strong> {q.question} */}
+    <strong>Q {String(index + 1).padStart(2, "0")}.</strong>{q.question}
+
+    <div>
+      {q.options.map((option, optIndex) => (
+        <label key={optIndex}>
+          <input type="radio" name={`q${index}`} onClick={handleAnswerMark} /> {option}
+          <br />
+        </label>
+      ))}
               </div>
+              <button className="submit-button">Submit</button>
             </div>
           ))}
         </div>
       </div>
+      
+  <footer className="footer">
+  ©2025 Aon plc. All rights reserved.
+</footer>
     </div>
+    
   );
 }
 
