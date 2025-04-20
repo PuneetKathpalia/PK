@@ -212,7 +212,7 @@ const Login = ({ onLogin }) => {
             <option value="paragraph">Paragraph</option>
           </select>
         </div>
-
+        
         <button type="submit" className="login-button">Start Assessment</button>
       </form>
     </div>

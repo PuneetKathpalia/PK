@@ -135,7 +135,7 @@ margin: 10px;
   font-size: 16px;
   cursor: pointer;
   z-index: 1000;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  /* box-shadow: 0 2px 5px rgba(0,0,0,0.2); */
 }
 
 .submit-button:hover {
@@ -257,11 +257,12 @@ margin: 10px;
 
 
 .submit-button {
-  background-color: #04146f; /* purple */
+  background-color: #01082d; /* purple */
   color: white;
   padding: 10px 70px;
   border: none;
   border-radius: 0px;
+
   /* font-weight: bold; */
   cursor: pointer;
   margin-top: 20px;

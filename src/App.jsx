@@ -510,7 +510,7 @@ function App() {
                     </label>
                   ))}
                 </div>
-                <button className="submit-button" style={{ backgroundColor: "purple", color: "white" }}>
+                <button className="submit-button" style={{  color: "white" }}>
                   Submit
                 </button>
               </div>
