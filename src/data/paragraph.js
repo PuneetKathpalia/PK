@@ -1,9 +1,6 @@
-const paragraph = [
-    {
-      question: "Write an essay on the importance of education.",
-      options: [] // You may leave options empty for essay questions.
-    }
-  ];
-  
-  export default paragraph;
-  
+const paragraphTopic = {
+  title: "The Importance of Time Management",
+  instruction: "Write an essay on the above topic in around 200–250 words.",
+};
+
+export default paragraphTopic;

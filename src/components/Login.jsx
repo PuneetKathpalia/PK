@@ -209,6 +209,7 @@ const Login = ({ onLogin }) => {
             <option value="databaseConcepts">Database Concepts</option>
             <option value="softSkills">Soft Skills</option>
             <option value="OOPS">OOPS</option>
+            <option value="paragraph">Paragraph</option>
           </select>
         </div>
 
